@@ -1,0 +1,21 @@
+body {
+  height: 100%;
+  background: #f8f9fa;
+}
+ul li:hover {
+  background-color: darkorange;
+}
+ul li a:hover {
+  color: aliceblue;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+nav {
+  height: 100%;
+}
+#header {
+  background-color: skyblue;
+}

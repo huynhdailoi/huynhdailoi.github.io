@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+a {
+  text-decoration: none;
+}
+.product-card {
+  width: 280px;
+  position: relative;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 50px auto;
+  background: #fafafa;
+}
+
+.badge {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  background: red;
+  color: #fff;
+  padding: 3px 10px;
+}
+
+.product-tumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  background: #f0f0f0;
+}
+
+.product-details {
+  padding: 10px;
+}
+
+.product-details h4 a {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #363636;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+  color: #fbb72c;
+}
+
+.product-details p {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 18px;
+  color: #999;
+}
+
+.product-bottom-details {
+  overflow: hidden;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.product-bottom-details div {
+  float: left;
+  width: 50%;
+}
+
+.product-price {
+  font-size: 15px;
+  color: #fbb72c;
+  font-weight: 600;
+}
+
+.product-price small {
+  font-size: 80%;
+  font-weight: 400;
+  text-decoration: line-through;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.product-links {
+  text-align: right;
+}
+
+.product-links a {
+  display: inline-block;
+  margin-left: 5px;
+  color: #e1e1e1;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.product-links a:hover {
+  color: #fbb72c;
+}
+
+.custom {
+  width: 78px !important;
+  height: 50px;
+}
+
+.thumb {
+  width: 300px;
+  overflow: hidden;
+}
+
+.thumb img {
+  height: 350px;
+  transition-duration: 0.3s !important;
+}
+
+.thumb img:hover {
+  transform: scale(1.1) !important;
+}
+
+.thumbNail img {
+  transition-duration: 0.3s !important;
+}
+
+.thumbNail {
+  border: 1px solid #999;
+}
+
+.thumbNail img:hover {
+  transform: scale(1.1);
+}
+
+.thumbNail:hover {
+  border: 1px solid rgb(0, 136, 204);
+}
+
+div.prod_hold {
+  position: relative;
+  z-index: 444;
+  text-align: center;
+}
+
+div.prod_hold .image {
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.prod_hold .babystreet-list-prod-summary {
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+div.prod_hold .sale,
+span.onsale {
+  background-color: #ff8087;
+}
+
+div.prod_hold .sale,
+div.prod_hold .new_prod {
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  z-index: 12002;
+  font-size: 12px;
+  border-radius: 50%;
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.prod_hold:hover .links,
+div.prod_hold .links,
+html.touch .links {
+  top: calc(100% - 150px);
+  opacity: 1;
+  border: 1px solid rgb(0, 136, 204);
+  background-color: rgb(0, 136, 204);
+  color: #f0f0f0;
+}
+
+div.prod_hold .links {
+  z-index: 6999;
+  border-left: 20px;
+  border-color: transparent;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  position: absolute;
+  top: calc(100% - 170px);
+  opacity: 0;
+  background-color: #f0f0f0;
+  width: 100%;
+}
+
+button.cart {
+  background-color: rgb(27, 189, 221);
+  color: white;
+  width: 155px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+button.cart:hover {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(27, 189, 221);
+  color: rgb(27, 189, 221);
+}
+
+button.buy {
+  background-color: rgb(235, 41, 55);
+  color: white;
+  width: 155px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+button.buy:hover {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(235, 41, 55);
+  color: rgb(235, 41, 55);
+}
